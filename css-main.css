@@ -5,3 +5,24 @@ body{
 #bottom{
   text-align: center;
 }
+
+
+.btn-group button{
+  background-color: #0790ba;
+  border: 1px solid blue;
+  transition: transform .2s;
+  width: 50%;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group button:not(:last-child){
+  border-right: none;
+}
+
+.btn-group button:hover{
+  background-color: #055d78;
+  transform: scale(1.02);
+}
