@@ -3,7 +3,8 @@ body{
   background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg");
 }
 
-#bottom{
+/* this is to center stuff */
+#center{
   text-align: center;
 }
 
