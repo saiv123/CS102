@@ -28,4 +28,5 @@ body{
   background-color: white; /* this is the other color #055d78*/
   color: #0790ba; /* comment this line out if you want to cahnge it back to the blue*/
   transform: scale(1.02);
+  border-right: 1px solid blue;
 }
