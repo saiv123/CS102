@@ -8,6 +8,7 @@ body {
   text-align: center;
 }
 
+/* this adds the atributes to the buttons group */
 .btn-group button {
   background-color: #0790ba;
   border: 1px solid blue;
@@ -19,6 +20,7 @@ body {
   float: left;
 }
 
+/* this is so that the button borders do not overlap */
 .btn-group button:not(:last-child) {
   border-right: none;
 }
