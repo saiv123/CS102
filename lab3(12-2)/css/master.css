@@ -66,5 +66,8 @@ main{
 
 #wrapper{
   min-width: 700px;
-
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F0F0F0;
 }
