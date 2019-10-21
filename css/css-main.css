@@ -1,8 +1,7 @@
 /*
   Author: Sai Veeravelli
-  Date: 10/14/2019
+  Date: 10/21/2019
  */
-
 /* changes the backgroud of the page */
 body {
   background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg");
@@ -11,6 +10,13 @@ body {
 /* this is to center stuff */
 #center {
   text-align: center;
+}
+
+.box {
+  width: 30%;
+  float: left;
+  padding: 10px;
+  margin: 10px;
 }
 
 /* this adds the atributes to the buttons group */
