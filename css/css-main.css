@@ -3,7 +3,7 @@
   Date: 10/14/2019
  */
 
-/* cahnges the backgroud of the page */
+/* changes the backgroud of the page */
 body {
   background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg");
 }
@@ -31,10 +31,10 @@ body {
 }
 
 .btn-group button:hover {
+  box-shadow: 0px 0px 150px #000000;
   background-color: white;
-  /* this is the other color #055d78*/
+  /* this is the other color #055d78 blue*/
   color: #0790ba;
-  /* comment this line out if you want to cahnge it back to the blue*/
   transform: scale(1.02);
   border-right: 1px solid blue;
 }
