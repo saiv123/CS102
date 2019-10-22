@@ -19,6 +19,10 @@ body {
   margin: 10px;
 }
 
+.clearfix{
+  clear: both;
+}
+
 /* this adds the atributes to the buttons group */
 .btn-group button {
   background-color: #0790ba;
