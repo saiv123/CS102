@@ -1,0 +1,31 @@
+span {
+  background-color: black;
+}
+
+nav {
+  font-weight: bold;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #667;
+  float: left;
+  width 150%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #3262A3;
+}
+
+nav a:visited {
+  color: #6699FF;
+}
+
+nav:hover {
+  color: #CCCCCC;
+}
