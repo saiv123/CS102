@@ -1,3 +1,97 @@
+@media only screen and (max-width: 1024px) {
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    background-image: none;
+  }
+
+  #wrapper{
+    width: auto;
+    min-width: 0px;
+    margin: 0px;
+  }
+
+  h1{
+    margin: 0px;
+    font-size: 1.8em;
+    line-height: 200%;
+  }
+
+  nav{
+    float: none;
+    width: auto;
+  }
+
+  nav li{
+    display: inline-block;
+  }
+
+  nav a{
+    padding: 1em;
+    font-size: 1.2em;
+  }
+
+  nav ul{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  main{
+    font-size: 90%;
+    margin: 0px;
+    padding-left: 2em;
+  }
+
+  footer{
+    margin: 0px;
+  }
+}
+
+@media only screen (max-width: 768px) {
+  header{
+    background-image: url("../images/lilfish.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h1{
+    font-size: 1.5em;
+    line-height: 120%;
+  }
+
+  nav a{
+    display: block;
+    padding: 0.2em;
+    font-size: 1.3em;
+    border-bottom: 1px solid #330000;
+  }
+
+  nav li{
+    display: block;
+  }
+
+  nav ul{
+    text-align: left;
+  }
+
+  main{
+    padding-left: 1em;
+  }
+
+  .category{
+    text-shadow: none;
+  }
+
+  #mobile{
+    display: inline;
+  }
+
+  #desktop{
+    display: none;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -88,6 +182,10 @@ footer {
   margin-left: 180px;
 }
 
+header, nav, main, footer{
+  display: block;
+}
+
 .category {
   background-color: #FFFFFF;
   color: #5280C5;
@@ -104,6 +202,10 @@ footer {
   color: #000066;
 }
 
-header, nav, main, footer{
-  display: block;
+#mobile{
+  display: none;
+}
+
+#desktop{
+  display: inline;
 }
