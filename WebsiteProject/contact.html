@@ -9,7 +9,6 @@
 
 <body class="contactB">
   <div id="wrapper">
-
     <div class="box">
       <header>
         <h1>Contact</h1>
@@ -17,17 +16,14 @@
 
       <main>
         <form action="welcome.html" method="POST" autocomplete>
-          <label>
-            Name: <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
-          </label>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
           <br>
-          <label>
-            E-mail: <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
-          </label>
+          <label for="email">E-mail: </label>
+          <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
           <br>
-          <label>
-            Message: <textarea name="textarea" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
-          </label>
+          <label for="textarea">Message:</label>
+          <textarea name="textarea" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
           <br>
           <input type="submit" name="submit" id="submit">
         </form>
