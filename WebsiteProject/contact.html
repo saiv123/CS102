@@ -4,6 +4,37 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./css/master.css">
+  <!-- <script language="vbscript" type="text/vbscript">
+         Sub Sample ()
+          Dim iRow
+          Set objExcel = CreateObject ("Excel. Application")
+          Set objWorkbook = objExcel.Workbooks.Open ("./data/data.xlsx")
+          objExcel.Application.Visible = True
+          ObjWorkbook.Windows (1).Visible = True
+          Set XlSheet =objWorkbook.Sheets (1)
+          XlSheet.Activate
+          iRow = 1
+          With objExcel
+              Do while .Cells (iRow, 1).value <> ""
+                  .Cells (iRow, 1).activate
+                  iRow = iRow + 1
+              Loop
+                 .Cells (iRow, 1).value=Document.GetElementsByName ("name") (0).Value
+                 .Cells (iRow, 2).value=Document.GetElementsByName ("email") (0).Value
+                 .Cells (iRow, 3).value=Document.GetElementsByName ("message") (0).value
+
+                 MsgBox "data recorded", vbinformation
+
+                 Document.GetElementsByName ("name") (0).Value=""
+                 Document.GetElementsByName ("email") (0).Value=""
+                 Document.GetElementsByName ("message") (0).Value=""
+             End With
+             ObjWorkbook. Save
+             ObjWorkbook. Close
+             Set objWorkbook = Nothing
+             Set objExcel = Nothing
+         End Sub
+      </script> -->
   <title>Washington || Contact Page</title>
 </head>
 
@@ -23,7 +54,7 @@
           <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
           <br>
           <label for="textarea">Message:</label>
-          <textarea name="textarea" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
+          <textarea name="message" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
           <br>
           <input type="submit" name="submit" id="submit">
         </form>
