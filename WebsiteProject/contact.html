@@ -4,34 +4,34 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./css/master.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" charset="utf-8"></script>
-  <script src="./js/form.js" charset="utf-8"></script>
-  <title>Washiton || Contact Page</title>
+  <title>Washington || Contact Page</title>
 </head>
 
-<body>
+<body class="contactB">
   <div id="wrapper">
-    <header>
-      <h1>Contacts</h1>
-    </header>
 
-    <main>
-      <form>
-        <label>
-          E-mail
-          <input type="email" class="email"/>
-        </label>
-        <label>
-          Name
-          <input type="text" class="name"/>
-        </label>
+    <div class="box">
+      <header>
+        <h1>Contact</h1>
+      </header>
 
-        <div class="status">
-
-        </div>
-
-        <button type="submit" class="submit">Submit</button>
-      </form>
+      <main>
+        <form action="welcome.html" method="POST" autocomplete>
+          <label>
+            Name: <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+          </label>
+          <br>
+          <label>
+            E-mail: <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
+          </label>
+          <br>
+          <label>
+            Message: <textarea name="textarea" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
+          </label>
+          <br>
+          <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
     </main>
 
     <footer></footer>
