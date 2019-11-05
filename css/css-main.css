@@ -5,6 +5,9 @@
 /* changes the backgroud of the page */
 body {
   background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* this is to center stuff */

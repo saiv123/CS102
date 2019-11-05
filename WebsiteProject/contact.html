@@ -4,66 +4,29 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./css/master.css">
-  <!-- <script language="vbscript" type="text/vbscript">
-         Sub Sample ()
-          Dim iRow
-          Set objExcel = CreateObject ("Excel. Application")
-          Set objWorkbook = objExcel.Workbooks.Open ("./data/data.xlsx")
-          objExcel.Application.Visible = True
-          ObjWorkbook.Windows (1).Visible = True
-          Set XlSheet =objWorkbook.Sheets (1)
-          XlSheet.Activate
-          iRow = 1
-          With objExcel
-              Do while .Cells (iRow, 1).value <> ""
-                  .Cells (iRow, 1).activate
-                  iRow = iRow + 1
-              Loop
-                 .Cells (iRow, 1).value=Document.GetElementsByName ("name") (0).Value
-                 .Cells (iRow, 2).value=Document.GetElementsByName ("email") (0).Value
-                 .Cells (iRow, 3).value=Document.GetElementsByName ("message") (0).value
-
-                 MsgBox "data recorded", vbinformation
-
-                 Document.GetElementsByName ("name") (0).Value=""
-                 Document.GetElementsByName ("email") (0).Value=""
-                 Document.GetElementsByName ("message") (0).Value=""
-             End With
-             ObjWorkbook. Save
-             ObjWorkbook. Close
-             Set objWorkbook = Nothing
-             Set objExcel = Nothing
-         End Sub
-      </script> -->
   <title>Washington || Contact Page</title>
 </head>
 
 <body class="contactB">
   <div id="wrapper">
-    <div class="box">
+    <main>
       <div class="formbox">
-        <header>
-          <h1>Contact</h1>
-        </header>
-        <main>
-          <form action="welcome.html" method="POST" autocomplete>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
-            <br>
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
-            <br>
-            <label for="textarea">Message:</label>
-            <textarea name="message" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
-            <br>
-            <input type="submit" name="submit" id="submit">
-          </form>
+        <h1>Contact</h1>
+        <form action="welcome.html" method="POST" autocomplete>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+          <br>
+          <label for="email">E-mail: </label>
+          <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
+          <br>
+          <label for="textarea">Message:</label>
+          <textarea name="message" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
+          <br>
+          <input type="submit" name="submit" id="submit">
+        </form>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-
-      <div class="test">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
     </main>
 
     <footer></footer>
