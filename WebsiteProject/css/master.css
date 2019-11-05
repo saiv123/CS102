@@ -77,17 +77,6 @@ nav:hover {
   margin-left: auto;
 }
 
-.box{
-  width: 470%;
-  padding: 10px 24px;
-}
-
-.test{
-  margin: 40px auto;
-  padding: 1em;
-  max-width: 300px;
-}
-
 .contactB {
   background-image: url("../images/fog-forest.jpg");
   background-position: center;
@@ -97,7 +86,6 @@ nav:hover {
 }
 
 .formbox {
-  float: left;
   margin: 40px auto;
   max-width: 300px;
   border: 1px solid white;
