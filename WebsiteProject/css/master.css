@@ -78,10 +78,11 @@ nav:hover {
 }
 
 .contactB {
-  background-image: url(../images/fog-forest.jpg);
+  background-image: url("../images/fog-forest.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .box {
