@@ -2,6 +2,12 @@ body {
   background-color: #A5ACAF;
 }
 
+header{
+  text-align: center;
+}
+
+
+
 h1 {
   text-align: center;
 }
@@ -37,10 +43,6 @@ label, input, textarea {
   display: block;
 }
 
-span {
-  background-color: black;
-}
-
 nav {
   display: inline-block;
   font-weight: bold;
@@ -52,21 +54,30 @@ nav {
 
 nav ul {
   list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
 }
 
-nav a {
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
   text-decoration: none;
+  text-align: center;
+  padding: 16px;
 }
 
-nav a:link {
+nav ul li a:link {
   color: #3262A3;
 }
 
-nav a:visited {
+nav ul li a:visited {
   color: #6699FF;
 }
 
-nav:hover {
+nav ul li a:hover {
   color: #CCCCCC;
 }
 
