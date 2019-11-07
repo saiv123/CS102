@@ -90,6 +90,34 @@ header, nav, main, footer{
   display: block;
 }
 
+table{
+  border-collapse: collapse;
+  margin: 1em;
+  border: 2px solid darkblue;
+}
+
+td, th{
+  padding: 0.5em;
+  border: 1px solid darkblue;
+}
+
+label{
+  display: block;
+  float: left;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input, textarea{
+  display: block;
+  margin-bottom: 1em;
+}
+
+#mySubmit{
+  margin-left: 9.5em;
+}
+
 .category {
   background-color: #FFFFFF;
   color: #5280C5;
