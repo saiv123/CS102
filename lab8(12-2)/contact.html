@@ -4,6 +4,7 @@
 <head>
   <link rel="stylesheet" href="./css/master.css">
   <script src="./js/jquary.js"></script>
+  <script src="./js/script.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fish Creek Animal Clinic Contact</title>
@@ -28,17 +29,17 @@
       <h2>Contact Fish Creek</h2>
 
       <p>Required information is marked with an asterisk(*).</p>
-      <form action="frishcreek.php" method="post">
+      <form action="frishcreek.php" method="post" onsubmit="return validateForm();">
         <label for="name">* Name:</label>
-        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name">
         <br>
 
         <label for="email">* E-mail: </label>
-        <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
+        <input type="email" name="email" id="email" placeholder="Enter E-mail">
         <br>
 
         <label for="myComment">* Comment:</label>
-        <textarea name="myComment" id="myComment" rows="2" cols="20" placeholder="Enter Your Message" required></textarea>
+        <textarea name="myComment" id="myComment" rows="2" cols="20" placeholder="Enter Your Message"></textarea>
         <br>
 
         <button type="submit" name="button" id="mySubmit">Send Now</button>
