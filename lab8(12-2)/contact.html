@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="./css/master.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish Creek Animal Clinic Contact</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Fish Creek Animal Clinic</h1>
+    </header>
+
+    <nav id="topnav">
+      <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="services.html">Services</a></li>
+        <li> <a href="askthevet.html">Ask the Vet</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <br>
+    <main>
+      <h2>Contact Fish Creek</h2>
+
+      <p>Required information is marked with an asterisk(*).</p>
+      <form action="frishcreek.php" method="post">
+        <label for="name">* Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <br>
+
+        <label for="email">* E-mail: </label>
+        <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
+        <br>
+
+        <label for="myComment">* Comment:</label>
+        <textarea name="myComment" id="myComment" rows="2" cols="20" placeholder="Enter Your Message" required></textarea>
+        <br>
+
+        <button type="submit" name="button" id="mySubmit">Send Now</button>
+      </form>
+    </main>
+
+    <footer>
+      Copyright &copy; 2018 Fish Creek Animal Clinic <br>
+      <script>
+        var date = document.lastModified;
+        document.write(date);
+      </script>
+      <br>
+      <a href="mailto:veeravs@wwu.edu?subject=feedback">veeravs@wwu.edu</a>
+    </footer>
+  </div>
+</body>
+
+</html>
