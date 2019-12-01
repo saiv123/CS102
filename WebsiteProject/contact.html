@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./css/master.css">
+  <script src="./js/form.js" charset="utf-8"></script>
   <title>Washington || Contact Page</title>
 </head>
 
@@ -25,7 +26,7 @@
       <br>
       <div class="formbox">
         <h1>Contact</h1>
-        <form action="welcome.html" method="POST" autocomplete>
+        <form method="POST" autocomplete onsubmit="return validate();">
           <label for="name">Name:</label>
           <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
           <br>
@@ -35,7 +36,7 @@
           <label for="textarea">Message:</label>
           <textarea name="message" id="textarea" rows="8" cols="22" placeholder="Enter Your Message"></textarea>
           <br>
-          <input type="submit" name="submit" id="submit">
+          <button type="submit" name="button" id="mySubmit">Send Now</button>
         </form>
       </div>
     </main>
