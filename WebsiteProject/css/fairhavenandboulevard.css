@@ -1,0 +1,86 @@
+body{
+    background-image: url("../images/fog-forest.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.box{
+    clear:left; 
+    position: relative; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:75%; 
+    height:100%; 
+    Background-color: rgba(204,204,204,0.6); 
+     
+}
+
+#image1{
+    height: 35%; 
+    width: 35%; 
+    padding-left: 2%; 
+    float:right; 
+    position:center;
+}
+
+header{
+    text-align: center; 
+}
+nav {
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #667;
+    width 100%; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 16px; 
+    padding-right: 16px;
+  }
+  
+  nav ul li a:link {
+    color: #3262A3;
+  }
+  
+  nav ul li a:visited {
+    color: #6699FF;
+  }
+  
+  nav ul li a:hover {
+    color: #CCC;
+  }
+
+#wrapper {
+  width: 80%;
+  min-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom:0%;  
+
+}
+h3, p{
+    padding-left: 2%; 
+    
+}
+h1{
+    position: relative; 
+    padding-left: 2%; 
+}
+.clearfix {
+    overflow: auto;
+  }
