@@ -4,6 +4,26 @@ body {
     margin: 0;
 }
 
+a{
+  text-shadow: 1px 1px 1px #667;
+  style-type: none;
+  display: inline-block;
+  style-type: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #3262A3;
+}
+
+a:visited {
+  color: #6699FF;
+}
+
+a:hover {
+  color: #CCCCCC;
+}
+
 #wrapper {
     overflow-x: hidden;
     overflow-y: auto;
