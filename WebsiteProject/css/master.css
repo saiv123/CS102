@@ -2,11 +2,9 @@ body {
   background-color: #A5ACAF;
 }
 
-header{
+header {
   text-align: center;
 }
-
-
 
 h1 {
   text-align: center;
@@ -97,7 +95,7 @@ nav ul li a:hover {
 }
 
 .formbox {
-  margin:0 auto;
+  margin: 0 auto;
   max-width: 300px;
   border: 1px solid white;
   background-color: gray;
@@ -106,6 +104,7 @@ nav ul li a:hover {
   border-radius: 4px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-form{
+
+form {
   margin: 40px auto;
 }
