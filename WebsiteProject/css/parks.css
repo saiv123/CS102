@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/Mainbackground.jpg");
+    background-image: url("../images/fog-forest.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,6 @@ body {
     margin-right: auto;
     width: 750px;
     height: auto;
-    padding-bottom: 5%; 
     Background-color: rgba(204, 204, 204, 0.6);
 }
 
