@@ -49,15 +49,15 @@ nav a {
   text-decoration: none;
 }
 
-nav a:link{
+nav a:link {
   color: #3262A3;
 }
 
-nav a:visited{
+nav a:visited {
   color: #6699FF;
 }
 
-nav:hover{
+nav:hover {
   color: #CCCCCC;
 }
 
@@ -86,22 +86,22 @@ footer {
   margin-left: 180px;
 }
 
-header, nav, main, footer{
+header, nav, main, footer {
   display: block;
 }
 
-table{
+table {
   border-collapse: collapse;
   margin: 1em;
   border: 2px solid darkblue;
 }
 
-td, th{
+td, th {
   padding: 0.5em;
   border: 1px solid darkblue;
 }
 
-label{
+label {
   display: block;
   float: left;
   text-align: right;
@@ -109,17 +109,17 @@ label{
   padding-right: 1em;
 }
 
-input, textarea{
+input, textarea {
   display: block;
   margin-bottom: 1em;
 }
 
-video{
+video {
   float: right;
   margin: 1em;
 }
 
-#mySubmit{
+#mySubmit {
   margin-left: 9.5em;
 }
 
@@ -139,104 +139,105 @@ video{
   color: #000066;
 }
 
-#mobile{
+#mobile {
   display: none;
 }
 
-#desktop{
+#desktop {
   display: inline;
 }
 
 @media only screen and (max-width: 1024px) {
-  body{
+  body {
     margin: 0px;
     padding: 0px;
     background-color: white;
     background-image: none;
   }
 
-  #wrapper{
+  #wrapper {
     width: auto;
     min-width: 0px;
     margin: 0px;
   }
 
-  h1{
+  h1 {
     margin: 0px;
     font-size: 1.8em;
     line-height: 200%;
   }
 
-  nav{
+  nav {
     float: none;
     width: auto;
   }
 
-  nav li{
+  nav li {
     display: inline-block;
   }
 
-  nav a{
+  nav a {
     padding: 1em;
     font-size: 1.2em;
   }
 
-  nav ul{
+  nav ul {
     text-align: center;
     padding: 0px;
     margin: 0px;
   }
-  main{
+
+  main {
     font-size: 90%;
     margin: 0px;
     padding-left: 2em;
   }
 
-  footer{
+  footer {
     margin: 0px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  header{
+  header {
     background-image: url("../images/lilfish.gif");
     background-position: center;
     background-repeat: no-repeat;
   }
 
-  h1{
+  h1 {
     font-size: 1.5em;
     line-height: 120%;
   }
 
-  nav a{
+  nav a {
     display: block;
     padding: 0.2em;
     font-size: 1.3em;
     border-bottom: 1px solid #330000;
   }
 
-  nav li{
+  nav li {
     display: block;
   }
 
-  nav ul{
+  nav ul {
     text-align: left;
   }
 
-  main{
+  main {
     padding-left: 1em;
   }
 
-  .category{
+  .category {
     text-shadow: none;
   }
 
-  #mobile{
+  #mobile {
     display: inline;
   }
 
-  #desktop{
+  #desktop {
     display: none;
   }
 }
